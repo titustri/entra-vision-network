@@ -52,19 +52,6 @@ const Hero = () => {
             untuk urban & rural area.
           </p>
           
-          <Button
-            onClick={() => scrollToSection('about')}
-            className="bg-gradient-to-r from-primary to-purple-500 hover:from-purple-500 hover:to-primary text-white px-8 py-4 text-lg rounded-lg shadow-lg hover:shadow-primary/25 transition-all duration-300 transform hover:scale-105 animate-glow-pulse"
-          >
-            Pelajari Lebih Lanjut
-          </Button>
-        </div>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-primary rounded-full mt-2"></div>
-          </div>
         </div>
       </div>
     </section>

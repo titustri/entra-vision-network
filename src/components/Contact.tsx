@@ -174,22 +174,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Google Maps Embed */}
-            <Card className="p-6 bg-card border-tech-border">
-              <h4 className="font-semibold text-foreground mb-4">Lokasi Kantor</h4>
-              <div className="w-full h-64 rounded-lg overflow-hidden">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.535!2d112.766!3d-7.265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f96!1x0:0x0!2zN8KwMTUnNTQuMCJTIDExMsKwNDUnNTcuNiJF!5e0!3m2!1sen!2sid!4v1635123456789!5m2!1sen!2sid"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="rounded-lg"
-                ></iframe>
-              </div>
-            </Card>
           </div>
         </div>
       </div>

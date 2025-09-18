@@ -21,7 +21,7 @@ const Projects = () => {
       icon: <FaBroadcastTower />,
       title: "Jaringan 5G Operator",
       description: "Pengembangan infrastruktur 5G untuk mendukung konektivitas super cepat di wilayah urban dan suburban.",
-      image: petaLayanan,
+      image: null,
       status: "In Progress",
       category: "5G Network"
     },
@@ -37,7 +37,7 @@ const Projects = () => {
       icon: <FaWifi />,
       title: "Broadband Wireless Access (BWA)",
       description: "Jaringan akses nirkabel broadband untuk coverage area yang lebih luas dengan teknologi terdepan.",
-      image: petaLayanan,
+      image: null,
       status: "Development",
       category: "Wireless"
     },
@@ -150,6 +150,25 @@ const Projects = () => {
                 />
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Service Coverage Map */}
+        <div className="mb-16">
+          <h3 className="text-2xl md:text-3xl font-bold text-foreground text-center mb-8">
+            Peta <span className="text-primary">Layanan</span>
+          </h3>
+          <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
+            Coverage area untuk mendukung proyek 5G Operator dan Broadband Wireless Access (BWA)
+          </p>
+          <div className="max-w-4xl mx-auto">
+            <Card className="overflow-hidden bg-card border-tech-border animate-fade-in">
+              <img 
+                src={petaLayanan} 
+                alt="Peta Layanan 5G dan BWA"
+                className="w-full h-auto object-contain"
+              />
+            </Card>
           </div>
         </div>
 
