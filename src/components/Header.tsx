@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Company Name */}
           <div className="flex items-center space-x-3">
-            <h1 className="text-2xl font-bold text-primary">SETARA</h1>
+            <h1 className="text-2xl font-bold text-primary">SETARA INFRA</h1>
           </div>
 
           {/* Desktop Navigation */}

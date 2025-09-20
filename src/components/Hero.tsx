@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import fiberOpticHero from '@/assets/fiber-optic-hero.jpg';
+import telecomNetworkHero from '@/assets/telecom-network-hero.jpg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -13,7 +13,7 @@ const Hero = () => {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(34, 40, 49, 0.8), rgba(34, 40, 49, 0.8)), url(${fiberOpticHero})`,
+        backgroundImage: `linear-gradient(rgba(34, 40, 49, 0.8), rgba(34, 40, 49, 0.8)), url(${telecomNetworkHero})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
