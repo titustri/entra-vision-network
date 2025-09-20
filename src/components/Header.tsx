@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import logo from '@/assets/logo.jpeg';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
@@ -18,9 +17,9 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-md border-b border-tech-border">
       <nav className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          {/* Logo */}
+          {/* Company Name */}
           <div className="flex items-center space-x-3">
-            <img src={logo} alt="PT Setara / ENTRA Logo" className="h-10 w-auto" />
+            <h1 className="text-2xl font-bold text-primary">SETARA</h1>
           </div>
 
           {/* Desktop Navigation */}
